@@ -1,0 +1,61 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Registered user access track the ordered item in Demowebshop",
+        "description": "",
+        "id": "bdc-validation-on-demowebshop;registered-user-access-track-the-ordered-item-in-demowebshop",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "user has already palced an order for his favorite item",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21100,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user tries to access the order tracking dashboard",
+            "match": {
+              "location": "BDC_DEMO__01_DEFINITIONS.user_tries_to_access_the_order_tracking_dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18100,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "identifies the state of the order",
+            "match": {
+              "location": "BDC_DEMO__01_DEFINITIONS.identifies_the_state_of_the_order()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "BDC validation on demowebshop",
+    "description": "",
+    "id": "bdc-validation-on-demowebshop",
+    "keyword": "Feature",
+    "uri": "Features99/File1.feature",
+    "tags": []
+  }
+]
